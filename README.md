@@ -114,7 +114,4 @@ Per sample:
 5. **AKF** fuses perceptual / explicit / latent views
 6. Linear classifier on the fused text representation → 7 MEDIC disaster classes
 
-## License / citation
-
-Extracted from the Multimodal Concept Graph research codebase for paper reproduction.
 # crisis-kg
