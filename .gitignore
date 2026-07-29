@@ -1,0 +1,29 @@
+myenv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Large data assets (place / symlink manually)
+data/datasets/dataset_files/medic-crisis-nlp/**
+!data/datasets/dataset_files/medic-crisis-nlp/.gitkeep
+!data/datasets/dataset_files/medic-crisis-nlp/tsvs/
+!data/datasets/dataset_files/medic-crisis-nlp/tsvs/.gitkeep
+
+# Generated metadata caches
+image_textual_metadata_generation/captions/*.json
+image_textual_metadata_generation/triplets/*.json
+image_textual_metadata_generation/cot_triplets/*.json
+
+# Saved models and topic models
+models/multimodal_concept_topic_graph/saved_model/*.pth
+topic_modelling/medic_topic_model/**
+
+# Run outputs
+logs/
+test_run_logs/
